@@ -1,0 +1,250 @@
+.ProjectBlockContainer{
+    /* height: 93.5vh; */
+    width: 100%;
+    box-sizing: border-box;
+
+    background-color:rgb(10,10,10);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectShowcaseContainer > div:nth-child(n+4){
+    display: none;
+}
+
+.smallScreenTitle{
+    background-color: rgb(10,10,10);
+    color: white;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-size: 4em;
+    font-weight: 700;
+
+    justify-content: center;
+    align-items: center;
+
+    /* background-image: url('./pattern.jpg');
+    background-size: 50px; */
+}
+
+
+@media (min-width:1500px){
+    .ProjectBlockContainer{
+        height: 93.5vh;
+    }
+}
+
+@media (max-width:1501px){
+    .ProjectBlockContainer{
+        /* background-color: white; */
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+}
+
+.projectScreenContainer{
+    display: grid;
+    /* grid-template-columns: 3fr 1fr; */
+    /* column-gap: 0.4em; */
+
+    background-color:rgb(10,10,10);
+
+    /* background-image: url('./pattern.jpg');
+    background-size: 50px; */
+    /* padding: 0.5vh 0.5vw 0.5vh 0.5vw; */
+}
+
+
+/*This is for project font size (responsive)*/
+@media (max-width:701px) and (min-width:500px){
+    .project{
+        font-size: 3.5em;
+    }
+}
+
+@media (min-width:700px) and (max-width:1000px){
+    .project{
+        font-size:4.5em;
+    }
+}
+
+@media (min-width:1001px) {
+    .project{
+        font-size: 5.5em;
+    }
+}
+
+@media (max-width:500px){
+    .project{
+        font-size: 4em;
+    }
+}
+
+/*This is for project font size (responsive)*/
+
+@media (min-width:1000px){
+    .projectScreenContainer{
+        grid-template-columns: 3fr 1fr;
+    }
+}
+
+@media (min-width:501px) and (max-width:1000px){
+    .projectScreenContainer{
+        grid-template-columns: 2.5fr 1fr;
+    }
+}
+
+@media (max-width:500px) {
+    .project{
+        display: none;
+    }
+
+    .smallScreenTitle{
+        display: flex;
+    }
+
+    .projectScreenContainer{
+        row-gap: 0.4em;
+    }
+}
+
+@media (min-width:501px) {
+    .project{
+        display: flex;
+    }
+
+    .smallScreenTitle{
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+    /* .projectScreenContainer{
+        grid-template-columns: 1fr;
+    } */
+
+    .projectShowcaseContainer > div:nth-child(1){
+        width:100%;
+        height: 27em;
+    }
+}
+
+
+.projectShowcaseContainer{
+    display: grid;
+    align-items: center;
+    column-gap: 0.2vw;
+    justify-content: space-between;
+
+    /* box-sizing: border-box; */
+    overflow: hidden;
+}
+
+@media(max-width:600px){
+    .projectShowcaseContainer{
+        grid-template-columns: 1fr;
+    }
+
+    .projectShowcaseContainer > div:nth-child(2){
+        display: none;
+    }
+
+    .projectShowcaseContainer > div:nth-child(3){
+        display: none;
+    }
+
+    .projectScreenContainer{
+        width:78vw;
+    }
+}
+
+@media (min-width:601px){
+    .projectScreenContainer{
+        width:85vw;
+    }
+}
+
+@media (min-width:601px){
+    .projectShowcaseContainer{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+.projectMoveConatiner{
+    /* width: 25vw; */
+    /* flex-shrink: 0; */
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('../Images/pattern.jpg');
+    background-size: 50px;
+    border-radius: 10px;
+}
+
+@media (min-width:501px){
+    .projectMoveConatiner{
+        grid-template-rows: 80% 10% 10%;
+    }
+
+    .project{
+        height: 100%;
+    }
+}
+
+.project{
+    /* font-size: 3em; */
+    
+    /* font-size: 14vh; */
+    /* height: 100%; */
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: end;
+    /* background-color: antiquewhite; */
+    /* padding: 1rem; */
+    padding-top:1rem;
+    padding-bottom: 2rem;
+}
+
+.moveBox{
+    display:flex;
+    justify-content: space-around;
+    background-color:rgb(10,10,10);
+    height: 100%;
+}
+
+.seeAll{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5em;
+    justify-content: center;
+    color:white;
+    background-color: rgb(10,10,10);
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border: none;
+    transition: color 0.2s;
+}
+
+.seeAll:hover, .left:hover, .right:hover{
+    color:blueviolet;
+    cursor: pointer;
+}
+
+.left, .right{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3em;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    background-color: rgb(10,10,10);
+    transition: color 0.2s;
+}

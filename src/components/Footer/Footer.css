@@ -1,0 +1,72 @@
+.footerContainer{
+    display: flex;
+    height:100%;
+    background-color: rgb(230,230,230);
+    padding: 1em;
+    border-top: 5px solid blueviolet;
+}
+
+.gmailAdd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:blueviolet;
+}
+
+.gmailAdd:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.footerInfoContainer{
+    width:100%;
+
+    display: grid;
+    row-gap:1vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.SocialMediaAccount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:500px) {
+    .rightsSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyrightSmall{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyright{
+        display: none;
+    }
+}
+
+@media (min-width:500px) {
+    .rightsSection{
+        display: none;
+    }
+    .copyright{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .copyrightSmall{
+        display: none;
+    }
+}

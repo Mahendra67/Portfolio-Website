@@ -1,0 +1,16 @@
+.form__container{
+    height: 100%;
+
+    border:2px;
+    border-style: solid;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 2fr 0.5fr;
+    row-gap: 3vh;
+    justify-content: space-evenly;
+}
+
+.Submit__button{
+    font-size: calc(0.9vh + 0.9vw);
+}

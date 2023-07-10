@@ -1,0 +1,48 @@
+.quesContainer, .ansFieldContainer, .fieldContainer{
+    border:2px;
+    border-style:solid;
+}
+
+.fieldContainer{
+    display: grid;
+    row-gap: 1vh;
+}
+
+.fieldContainer.messageDimension{
+    grid-template-rows: 1fr 3fr;
+}
+
+.messageContainer{
+    font-size: calc(0.9vh + 0.9vw);
+    font-family: 'League Spartan', sans-serif;
+
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+
+    resize:none;
+    border:none;
+}
+
+.quesContainer{
+    display: flex;
+    justify-content: left;
+    align-items: end;
+
+    font-size: calc(0.9vh + 0.9vw);
+    padding-left: 0.5vw;
+    font-weight: 600;
+}
+
+.ansFieldContainer[type="text"]{
+    font-family: 'League Spartan', sans-serif;
+    font-size: calc(0.9vh + 0.9vw);
+    padding-left: 0.5vw;
+}
+
+.ansFieldContainer::placeholder{
+    font-weight: 600;
+    font-size: calc(0.9vh + 0.9vw);
+    text-align:left;
+}

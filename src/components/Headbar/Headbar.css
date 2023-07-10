@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.projects__link_home{
+    color: white;
+    text-decoration: none;
+}
+
+.projects__link_projects, .projects__link_resume, .projects__link_home{
+    color: white;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.projects__link_projects:hover, .projects__link_resume:hover, .projects__link_home:hover{
+    color:blueviolet;
+}
+
+.dropDownBtn{
+    color:white;
+    display: flex;
+    justify-content: end;
+}
+
+.headbarContainer{
+    width:100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: fixed;
+    background-color: rgb(10,10,10);
+
+    z-index: 9;
+}
+
+.headbar{
+    /* height: 3.5em; */
+    /* height:8vh; */
+
+    font-size: 1.4em;
+
+    z-index: 10;
+/* 
+    padding-top: 1.2em;
+    padding-bottom: 1.2em; */
+
+    display:grid;
+    grid-template-columns: 1.8fr 1fr;
+    align-items: center;
+    box-sizing: border-box;
+
+    /* position: fixed; */
+}
+
+
+
+
+@media (min-width:1000px){
+    .headbar{
+        width: 85vw;
+    }
+}
+
+@media (max-width:1000px){
+    .headbar{
+        width: 82vw;
+    }
+}
+
+@media (min-width:700px){
+    .RightHeadbar{
+        display: grid;
+    }
+
+    .dropDownBtn{
+        display: none;
+    }
+
+    .headbar{
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+    }
+
+    .dropDownContainer{
+        display: none;
+    }
+
+    
+}
+
+.headbarContainer{
+    border-bottom: 5px solid blueviolet;
+}
+
+@media (max-width:700px) {
+    .RightHeadbar{
+        display: none;
+    }
+
+    .dropDown{
+        display: flex;
+        position: absolute;
+        top:59px;
+        z-index: 4;
+    
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(10,10,10);
+    
+    }
+
+    .headbar{
+        position: relative;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    .dropDownContainer{
+        /* padding: 4em; */
+        
+        padding-top: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        width:100%;
+
+        border-top: 6px solid blueviolet;
+
+        background-color: rgb(10,10,10);
+    }
+
+    .actualDropDown{
+        width:82vw;
+        /* height: 50%; */
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+
+    .actualDropDown > * {
+        font-size: 1.5em;
+        display: flex;
+        padding-top: 0.6em;
+        padding-bottom: 0.6em;
+    }
+}
+
+.dropDownBtn{
+    justify-content: end;
+}
+
+
+
+.RightHeadbar{
+    /*Contact page was removed from here _> Add later on*/
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+
+    /* border:2px;
+    border-style: solid; */
+    justify-content: space-between;
+
+    /* background-color: white; */
+}
+
+
+.contact_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume{
+    display: flex;
+    justify-content:right;
+}
+
+
+.dropdown_home, .dropdown_projects, .dropdown_resume, .dropdown_linkedin{
+    text-decoration: none;
+    color: white;
+}
