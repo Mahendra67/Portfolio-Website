@@ -11,7 +11,7 @@ const ProjectsAll = () => {
     {
       name:"Portfolio Website",
       desc:"It features a clean and minimalist design and acts as my visual resume.",
-      link:"https://mahendra67.github.io/Portfolio-Website/",
+      link:"https://portfolio-website-flame-omega.vercel.app/",
       github:"https://github.com/Mahendra67/Portfolio-Website",
       img:image444,
       techstack:"HTML, CSS, Javascript, ReactJS"
