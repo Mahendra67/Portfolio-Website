@@ -6,7 +6,7 @@ const Footer = () => {
   const currYear = new Date().getFullYear();
 
   function emailClickHandler(){
-    window.open("mailto:your-email@example.com");
+    window.open("mailto:mahendramajhi53@gmail.com");
   }
 
   return (
