@@ -15,7 +15,7 @@ const ProjectBlock = () => {
   const [srcImages, setSrcImages] = useState([
     {image : portfolioImg,
       name : "Portfolio Website",
-      link : "https://mahendra67.github.io/Portfolio-Website/",
+      link : "https://portfolio-website-flame-omega.vercel.app/",
       github : "https://github.com/Mahendra67/Portfolio-Website",
       techStack : "HTML, CSS, ReactJS",
       projectId : '01'
