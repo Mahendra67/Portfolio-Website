@@ -26,7 +26,7 @@ const ProjectsAll = () => {
     },
     {
       name:"Cat generator",
-      desc:"It uses the CATAAS API to fetch CAT images/GIF and display them according in the DOM.",
+      desc:"It uses the CATAAS API to fetch CAT images/GIF and display them accordingly in the DOM.",
       link:"https://mahendra67.github.io/random-cat-generator/",
       github:"https://github.com/Mahendra67/random-cat-generator",
       img:image111,
