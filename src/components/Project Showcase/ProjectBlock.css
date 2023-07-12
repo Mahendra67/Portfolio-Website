@@ -216,6 +216,10 @@
     justify-content: space-around;
     background-color:rgb(10,10,10);
     height: 100%;
+
+    border:1px solid white;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .seeAll{
@@ -223,28 +227,64 @@
     height: 100%;
     align-items: center;
     font-family: 'League Spartan', sans-serif;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     justify-content: center;
-    color:white;
     background-color: rgb(10,10,10);
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     border: none;
+    /* transition: color 0.2s; */
+
+    /* border:2px solid blueviolet; */
+}
+
+@media (min-width:500px) and (max-width:700px) {
+    .seeAll{
+        font-size: 1.2em;
+    }
+    .left, .right{
+        font-size:2em;
+    }
+}
+
+@media (max-width:500px) {
+    .seeAll{
+        font-size: 1.5em;
+    }
+    .left, .right{
+        font-size: 3em;
+    }
+}
+
+@media (min-width:700px) {
+    .seeAll{
+        font-size: 1.5em;
+    }
+    .left, .right{
+        font-size: 3em;
+    }
+}
+
+.view_all_projects_btn{
+    text-decoration: none;
+    color:white;
     transition: color 0.2s;
 }
 
-.seeAll:hover, .left:hover, .right:hover{
+
+.view_all_projects_btn:hover, .left:hover, .right:hover{
     color:blueviolet;
     cursor: pointer;
 }
 
 .left, .right{
     font-family: 'League Spartan', sans-serif;
-    font-size: 3em;
+    /* font-size: 3em; */
     width: 50%;
     border: none;
-    border-radius: 10px;
     color:white;
     background-color: rgb(10,10,10);
     transition: color 0.2s;
+    padding-top:0.1em;
+    padding-bottom: 0.1em;
 }

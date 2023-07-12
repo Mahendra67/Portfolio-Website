@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import ProjectCard from './ProjectCard'
 import './ProjectBlock.css'
+import {Link} from 'react-router-dom'
 
 
 import portfolioImg from '../Images/ff4.jpg'
@@ -102,7 +103,9 @@ const ProjectBlock = () => {
         </div>
         <div className="projectMoveConatiner">
           <div className="project">projects</div>
-          <button className="seeAll">View all projects</button>
+          <button className="seeAll">
+            <Link className="view_all_projects_btn" to="/projects">View All Projects</Link>
+          </button>
           <div className="moveBox">
             <button className="left" onClick={sendLeftSignal}>&lt;</button>
             <button className="right" onClick={sendRightSignal}>&gt;</button>
