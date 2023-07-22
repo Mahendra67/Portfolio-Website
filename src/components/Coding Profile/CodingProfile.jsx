@@ -16,7 +16,7 @@ var info = [
   },
   {
     name: "codeforces",
-    maxRating: 951,
+    maxRating: 1024,
     desc: "It offers higher frequency of coding competitions.",
     siteImg: photo3,
     link:"https://codeforces.com/profile/mahendra53"
