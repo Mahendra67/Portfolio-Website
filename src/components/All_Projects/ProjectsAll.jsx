@@ -5,9 +5,18 @@ import image111 from '../Images/rb_cat.jpg'
 import image222 from '../Images/br_ball.jpg'
 import image333 from '../Images/br_jelly.jpg'
 import image444 from '../Images/portfolioImg16_9.png'
+import image555 from '../Images/Logo_yt.png'
 
 const ProjectsAll = () => {
   var allProj = [
+    {
+      name:"Youtube Filtered",
+      desc:"It removes the recommended videos on Youtube, and only showcases the content of your subscribed channels and your custom added playlists.",
+      link:"https://wevdebelopers.github.io/YoutubeFilteredDeployment/homepage.html",
+      github:"https://github.com/wevdebelopers/Youtube_Filter",
+      img:image555,
+      techstack:"HTML, CSS, Javascript"
+    },
     {
       name:"Portfolio Website",
       desc:"It features a clean and minimalist design and acts as my visual resume.",

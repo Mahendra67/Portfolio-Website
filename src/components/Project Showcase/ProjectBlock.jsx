@@ -8,39 +8,47 @@ import portfolioImg from '../Images/ff4.jpg'
 import dontTouchImg from '../Images/br_ball.jpg'
 import catGenImg from '../Images/rb_cat.jpg'
 import spiderImg from '../Images/br_jelly.jpg'
+import ytLogo from '../Images/Logo_yt.png'
 
 
 const ProjectBlock = () => {
 
 
   const [srcImages, setSrcImages] = useState([
+    {image : ytLogo,
+      name : "Youtube Filtered",
+      link : "https://wevdebelopers.github.io/YoutubeFilteredDeployment/homepage.html",
+      github : "https://github.com/wevdebelopers/Youtube_Filter",
+      techStack : "HTML, CSS, Javascript",
+      projectId : '01'
+    },
     {image : portfolioImg,
       name : "Portfolio Website",
       link : "https://portfolio-website-flame-omega.vercel.app/",
       github : "https://github.com/Mahendra67/Portfolio-Website",
       techStack : "HTML, CSS, ReactJS",
-      projectId : '01'
+      projectId : '02'
     },
     {image : dontTouchImg,
       name : "Don't Touch",
       link : "https://mahendra67.github.io/Dont-Touch-V1/",
       github : "https://github.com/Mahendra67/Dont-Touch-V1",
       techStack : "HTML, CSS, Javascript",
-      projectId : '02'
+      projectId : '03'
     },
     {image : catGenImg,
       name : "Cat generator",
       link : "https://mahendra67.github.io/random-cat-generator/",
       github : "https://github.com/Mahendra67/random-cat-generator",
       techStack : "HTML, CSS, Javascript",
-      projectId : '03'
+      projectId : '04'
     },
     {image : spiderImg,
       name : "Spider Movement",
       link : "https://mahendra67.github.io/Spider-Animation/",
       github : "https://github.com/Mahendra67/Spider-Animation",
       techStack : "HTML, CSS, Javascript",
-      projectId : '04'
+      projectId : '05'
     }
   ]);
 
