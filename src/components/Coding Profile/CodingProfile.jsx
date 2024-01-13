@@ -9,21 +9,21 @@ import Profile from './Profile.jsx'
 var info = [
   {
     name: "codechef",
-    maxRating: 1635,
+    maxRating: 1655,
     desc: "It is a nice platform to start competitive programming.",
     siteImg: photo2,
     link: "https://www.codechef.com/users/mahendra53"
   },
   {
     name: "codeforces",
-    maxRating: 1365,
+    maxRating: 1438,
     desc: "It offers higher frequency of coding competitions.",
     siteImg: photo3,
     link:"https://codeforces.com/profile/mahendra53"
   },
   {
     name: "leetcode",
-    maxRating: 1711,
+    maxRating: 1748,
     desc: "The best thing about this platform is it's community support.",
     siteImg: photo1,
     link:"https://leetcode.com/MahendraMajhi5367/"
