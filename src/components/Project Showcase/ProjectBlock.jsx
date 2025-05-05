@@ -24,7 +24,7 @@ const ProjectBlock = () => {
     },
     {image : portfolioImg,
       name : "Portfolio Website",
-      link : "https://portfolio-website-flame-omega.vercel.app/",
+      link : "https://portfolio-website-mahendra67.vercel.app/",
       github : "https://github.com/Mahendra67/Portfolio-Website",
       techStack : "HTML, CSS, ReactJS",
       projectId : '02'
